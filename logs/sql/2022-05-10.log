@@ -1,0 +1,676 @@
+2022-05-10 21:57:57.478 [ERRO] {8030190208c3ed163cbc3d31006785af} [  0 ms] [default] [rows:0  ] SHOW TABLES
+Error: dial tcp 127.0.0.1:3306: connect: connection refused 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /home/runner/work/gf/gf/database/gdb/gdb_core.go:662
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /home/runner/work/gf/gf/database/gdb/gdb_core_underlying.go:300
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /home/runner/work/gf/gf/database/gdb/gdb_core_underlying.go:62
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /home/runner/work/gf/gf/database/gdb/gdb_core.go:155
+5.  github.com/gogf/gf/v2/database/gdb.(*DriverMysql).Tables
+    /home/runner/work/gf/gf/database/gdb/gdb_driver_mysql.go:104
+6.  github.com/gogf/gf/cmd/gf/v2/internal/cmd.doGenDaoForArray
+    /home/runner/work/gf/gf/cmd/gf/internal/cmd/cmd_gen_dao.go:246
+7.  github.com/gogf/gf/cmd/gf/v2/internal/cmd.cGen.Dao
+    /home/runner/work/gf/gf/cmd/gf/internal/cmd/cmd_gen_dao.go:174
+8.  reflect.Value.call
+    /opt/hostedtoolcache/go/1.17.7/x64/src/reflect/value.go:556
+9.  reflect.Value.Call
+    /opt/hostedtoolcache/go/1.17.7/x64/src/reflect/value.go:339
+10. github.com/gogf/gf/v2/os/gcmd.newCommandFromMethod.func1
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_object.go:306
+11. github.com/gogf/gf/v2/os/gcmd.(*Command).doRun
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:120
+12. github.com/gogf/gf/v2/os/gcmd.(*Command).RunWithValueError
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:77
+13. github.com/gogf/gf/v2/os/gcmd.(*Command).RunWithValue
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:32
+14. github.com/gogf/gf/v2/os/gcmd.(*Command).Run
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:26
+15. main.main
+    /home/runner/work/gf/gf/cmd/gf/main.go:69
+16. runtime.main
+    /opt/hostedtoolcache/go/1.17.7/x64/src/runtime/proc.go:255
+17. runtime.goexit
+    /opt/hostedtoolcache/go/1.17.7/x64/src/runtime/asm_amd64.s:1581
+ 
+2022-05-10 21:59:39.572 [ERRO] {60aff6c11fc3ed16179a7b24a24974d7} [ 89 ms] [default] [rows:0  ] SHOW TABLES
+Error: dial tcp 8.210.86.99:3306: connect: connection refused 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /home/runner/work/gf/gf/database/gdb/gdb_core.go:662
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /home/runner/work/gf/gf/database/gdb/gdb_core_underlying.go:300
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /home/runner/work/gf/gf/database/gdb/gdb_core_underlying.go:62
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /home/runner/work/gf/gf/database/gdb/gdb_core.go:155
+5.  github.com/gogf/gf/v2/database/gdb.(*DriverMysql).Tables
+    /home/runner/work/gf/gf/database/gdb/gdb_driver_mysql.go:104
+6.  github.com/gogf/gf/cmd/gf/v2/internal/cmd.doGenDaoForArray
+    /home/runner/work/gf/gf/cmd/gf/internal/cmd/cmd_gen_dao.go:246
+7.  github.com/gogf/gf/cmd/gf/v2/internal/cmd.cGen.Dao
+    /home/runner/work/gf/gf/cmd/gf/internal/cmd/cmd_gen_dao.go:174
+8.  reflect.Value.call
+    /opt/hostedtoolcache/go/1.17.7/x64/src/reflect/value.go:556
+9.  reflect.Value.Call
+    /opt/hostedtoolcache/go/1.17.7/x64/src/reflect/value.go:339
+10. github.com/gogf/gf/v2/os/gcmd.newCommandFromMethod.func1
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_object.go:306
+11. github.com/gogf/gf/v2/os/gcmd.(*Command).doRun
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:120
+12. github.com/gogf/gf/v2/os/gcmd.(*Command).RunWithValueError
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:77
+13. github.com/gogf/gf/v2/os/gcmd.(*Command).RunWithValue
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:32
+14. github.com/gogf/gf/v2/os/gcmd.(*Command).Run
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:26
+15. main.main
+    /home/runner/work/gf/gf/cmd/gf/main.go:69
+16. runtime.main
+    /opt/hostedtoolcache/go/1.17.7/x64/src/runtime/proc.go:255
+17. runtime.goexit
+    /opt/hostedtoolcache/go/1.17.7/x64/src/runtime/asm_amd64.s:1581
+ 
+2022-05-10 22:00:10.338 [ERRO] {001b7fe026c3ed16933edd45e32500f8} [281 ms] [default] [rows:0  ] SHOW TABLES
+Error: Error 1044: Access denied for user 'contract'@'%' to database 'focus' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /home/runner/work/gf/gf/database/gdb/gdb_core.go:662
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /home/runner/work/gf/gf/database/gdb/gdb_core_underlying.go:300
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /home/runner/work/gf/gf/database/gdb/gdb_core_underlying.go:62
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /home/runner/work/gf/gf/database/gdb/gdb_core.go:155
+5.  github.com/gogf/gf/v2/database/gdb.(*DriverMysql).Tables
+    /home/runner/work/gf/gf/database/gdb/gdb_driver_mysql.go:104
+6.  github.com/gogf/gf/cmd/gf/v2/internal/cmd.doGenDaoForArray
+    /home/runner/work/gf/gf/cmd/gf/internal/cmd/cmd_gen_dao.go:246
+7.  github.com/gogf/gf/cmd/gf/v2/internal/cmd.cGen.Dao
+    /home/runner/work/gf/gf/cmd/gf/internal/cmd/cmd_gen_dao.go:174
+8.  reflect.Value.call
+    /opt/hostedtoolcache/go/1.17.7/x64/src/reflect/value.go:556
+9.  reflect.Value.Call
+    /opt/hostedtoolcache/go/1.17.7/x64/src/reflect/value.go:339
+10. github.com/gogf/gf/v2/os/gcmd.newCommandFromMethod.func1
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_object.go:306
+11. github.com/gogf/gf/v2/os/gcmd.(*Command).doRun
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:120
+12. github.com/gogf/gf/v2/os/gcmd.(*Command).RunWithValueError
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:77
+13. github.com/gogf/gf/v2/os/gcmd.(*Command).RunWithValue
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:32
+14. github.com/gogf/gf/v2/os/gcmd.(*Command).Run
+    /home/runner/work/gf/gf/os/gcmd/gcmd_command_run.go:26
+15. main.main
+    /home/runner/work/gf/gf/cmd/gf/main.go:69
+16. runtime.main
+    /opt/hostedtoolcache/go/1.17.7/x64/src/runtime/proc.go:255
+17. runtime.goexit
+    /opt/hostedtoolcache/go/1.17.7/x64/src/runtime/asm_amd64.s:1581
+ 
+2022-05-10 22:00:31.561 [DEBU] {68b64fcb2bc3ed1605597959d2c7dbcc} [385 ms] [default] [rows:0  ] SHOW TABLES 
+2022-05-10 22:05:05.825 [DEBU] {48565fab6bc3ed165796520c9509773d} [307 ms] [default] [rows:1  ] SHOW TABLES 
+2022-05-10 22:05:05.903 [DEBU] {40ea1ba96bc3ed165696520c0cff0f63} [ 77 ms] [default] [rows:6  ] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:24:58.483 [DEBU] {20098289c7c7ed16b11dd56e7b721565} [347 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-10 23:24:58.568 [DEBU] {20098289c7c7ed16b11dd56e7b721565} [ 84 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:24:58.740 [DEBU] {20098289c7c7ed16b11dd56e7b721565} [171 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`game_coin`,`id`,`address`,`token_coin`,`created_at`,`updated_at`) VALUES(1,1111,'xxx',2,'2022-05-10 23:24:58','2022-05-10 23:24:58')  
+2022-05-10 23:24:58.832 [DEBU] {20098289c7c7ed16b11dd56e7b721565} [ 92 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-10 23:25:44.502 [DEBU] {401ad73ed2c7ed167898ea1879ab570a} [376 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-10 23:25:44.592 [DEBU] {401ad73ed2c7ed167898ea1879ab570a} [ 88 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:25:44.765 [ERRO] {401ad73ed2c7ed167898ea1879ab570a} [172 ms] [default] [rows:0  ] [txid:1] INSERT INTO `recharges`(`updated_at`,`game_coin`,`created_at`,`id`,`address`,`token_coin`) VALUES('2022-05-10 23:25:44',122222,'2022-05-10 23:25:44',1111,'xxx',222222222) 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:25:44.864 [DEBU] {401ad73ed2c7ed167898ea1879ab570a} [ 88 ms] [default] [rows:0  ] [txid:1] ROLLBACK 
+2022-05-10 23:25:46.507 [DEBU] {0068ebc6d2c7ed167998ea1889c96278} [ 97 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-10 23:25:46.689 [ERRO] {0068ebc6d2c7ed167998ea1889c96278} [180 ms] [default] [rows:0  ] [txid:2] INSERT INTO `recharges`(`token_coin`,`created_at`,`updated_at`,`game_coin`,`id`,`address`) VALUES(222222222,'2022-05-10 23:25:46','2022-05-10 23:25:46',122222,1111,'xxx') 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:25:46.791 [DEBU] {0068ebc6d2c7ed167998ea1889c96278} [ 83 ms] [default] [rows:0  ] [txid:2] ROLLBACK 
+2022-05-10 23:25:47.690 [DEBU] {5047610dd3c7ed167a98ea180e4ecffb} [ 99 ms] [default] [rows:0  ] [txid:3] BEGIN 
+2022-05-10 23:25:47.888 [ERRO] {5047610dd3c7ed167a98ea180e4ecffb} [197 ms] [default] [rows:0  ] [txid:3] INSERT INTO `recharges`(`updated_at`,`game_coin`,`id`,`address`,`token_coin`,`created_at`) VALUES('2022-05-10 23:25:47',122222,1111,'xxx',222222222,'2022-05-10 23:25:47') 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:25:47.990 [DEBU] {5047610dd3c7ed167a98ea180e4ecffb} [ 96 ms] [default] [rows:0  ] [txid:3] ROLLBACK 
+2022-05-10 23:25:49.375 [DEBU] {30bd7773d3c7ed167b98ea1820dada28} [ 71 ms] [default] [rows:0  ] [txid:4] BEGIN 
+2022-05-10 23:25:49.533 [ERRO] {30bd7773d3c7ed167b98ea1820dada28} [156 ms] [default] [rows:0  ] [txid:4] INSERT INTO `recharges`(`game_coin`,`updated_at`,`id`,`address`,`token_coin`,`created_at`) VALUES(122222,'2022-05-10 23:25:49',1111,'xxx',222222222,'2022-05-10 23:25:49') 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:25:49.623 [DEBU] {30bd7773d3c7ed167b98ea1820dada28} [ 85 ms] [default] [rows:0  ] [txid:4] ROLLBACK 
+2022-05-10 23:25:50.939 [DEBU] {a051c1cfd3c7ed167c98ea18baa556f1} [ 87 ms] [default] [rows:0  ] [txid:5] BEGIN 
+2022-05-10 23:25:51.118 [ERRO] {a051c1cfd3c7ed167c98ea18baa556f1} [177 ms] [default] [rows:0  ] [txid:5] INSERT INTO `recharges`(`token_coin`,`created_at`,`updated_at`,`game_coin`,`id`,`address`) VALUES(222222222,'2022-05-10 23:25:50','2022-05-10 23:25:50',122222,1111,'xxx') 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:25:51.213 [DEBU] {a051c1cfd3c7ed167c98ea18baa556f1} [ 89 ms] [default] [rows:0  ] [txid:5] ROLLBACK 
+2022-05-10 23:26:00.827 [DEBU] {20086f0cd6c7ed16b8e9a82d8905dbea} [366 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-10 23:26:00.923 [DEBU] {20086f0cd6c7ed16b8e9a82d8905dbea} [ 96 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:26:01.116 [ERRO] {20086f0cd6c7ed16b8e9a82d8905dbea} [192 ms] [default] [rows:0  ] [txid:1] INSERT INTO `recharges`(`game_coin`,`created_at`,`id`,`address`,`token_coin`,`updated_at`) VALUES(122222,'2022-05-10 23:26:00',1111,'xxx',222222222,'2022-05-10 23:26:00') 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:26:01.223 [DEBU] {20086f0cd6c7ed16b8e9a82d8905dbea} [ 98 ms] [default] [rows:0  ] [txid:1] ROLLBACK 
+2022-05-10 23:26:48.750 [DEBU] {483fb434e1c7ed16b35f3520fd477c23} [369 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-10 23:26:48.833 [DEBU] {483fb434e1c7ed16b35f3520fd477c23} [ 82 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:26:48.996 [ERRO] {483fb434e1c7ed16b35f3520fd477c23} [162 ms] [default] [rows:0  ] [txid:1] INSERT INTO `recharges`(`game_coin`,`updated_at`,`id`,`address`,`token_coin`,`created_at`) VALUES(122222,'2022-05-10 23:26:48',1111,'xxx',222222222,'2022-05-10 23:26:48') 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:26:49.086 [DEBU] {483fb434e1c7ed16b35f3520fd477c23} [ 84 ms] [default] [rows:0  ] [txid:1] ROLLBACK 
+2022-05-10 23:27:14.979 [DEBU] {a04ea751e7c7ed168aa3b70f1f4b78e5} [341 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-10 23:27:15.068 [DEBU] {a04ea751e7c7ed168aa3b70f1f4b78e5} [ 88 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:27:15.244 [ERRO] {a04ea751e7c7ed168aa3b70f1f4b78e5} [175 ms] [default] [rows:0  ] [txid:1] INSERT INTO `recharges`(`id`,`address`,`created_at`,`updated_at`,`game_coin`,`token_coin`) VALUES(1111,'xxx','2022-05-10 23:27:14','2022-05-10 23:27:14',122222,222222222) 
+Error: Error 1062: Duplicate entry '1111' for key 'recharges.PRIMARY' 
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:656
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:250
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_underlying.go:112
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core.go:445
+5.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:313
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_insert.go:170
+7.  contract/internal/service.(*sRecharge).Create.func1
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:21
+8.  github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_core_transaction.go:107
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).Transaction
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/database/gdb/gdb_model_transaction.go:27
+10. contract/internal/service/internal/dao/internal.(*RechargesDao).Transaction
+    /Users/chenghao/www/mi_xiong/contract/internal/service/internal/dao/internal/recharges.go:81
+11. contract/internal/service.(*sRecharge).Create
+    /Users/chenghao/www/mi_xiong/contract/internal/service/recharge.go:18
+12. contract/internal/controller.(*cRecharges).Store
+    /Users/chenghao/www/mi_xiong/contract/internal/controller/recharges.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:153
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:128
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:74
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:54
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:53
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:95
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_func.go:56
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:94
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/util/gutil/gutil.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_request_middleware.go:48
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/chenghao/go/pkg/mod/github.com/gogf/gf/v2@v2.0.4/net/ghttp/ghttp_server_handler.go:121
+ 
+2022-05-10 23:27:15.341 [DEBU] {a04ea751e7c7ed168aa3b70f1f4b78e5} [ 90 ms] [default] [rows:0  ] [txid:1] ROLLBACK 
+2022-05-10 23:27:48.686 [DEBU] {d865be29efc7ed162f96a94d83caf37c} [359 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-10 23:27:48.768 [DEBU] {d865be29efc7ed162f96a94d83caf37c} [ 81 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-10 23:27:48.922 [DEBU] {d865be29efc7ed162f96a94d83caf37c} [154 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`id`,`address`,`created_at`,`updated_at`,`game_coin`,`token_coin`) VALUES(0,'xxx','2022-05-10 23:27:48','2022-05-10 23:27:48',122222,222222222)  
+2022-05-10 23:27:49.003 [DEBU] {d865be29efc7ed162f96a94d83caf37c} [ 81 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-10 23:27:57.958 [DEBU] {f8557d62f1c7ed163096a94d1656adb0} [ 90 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-10 23:27:58.423 [DEBU] {f8557d62f1c7ed163096a94d1656adb0} [464 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`created_at`,`updated_at`,`game_coin`) VALUES(0,'xxx',222222222,'2022-05-10 23:27:57','2022-05-10 23:27:57',122222)  
+2022-05-10 23:27:58.510 [DEBU] {f8557d62f1c7ed163096a94d1656adb0} [ 87 ms] [default] [rows:0  ] [txid:2] COMMIT 

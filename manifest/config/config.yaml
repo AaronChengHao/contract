@@ -7,5 +7,15 @@ logger:
   level : "all"
   stdout: true
 
+# 数据库连接配置
+database:
+  logger:
+    path:    "logs/sql"
+    level:   "all"
+    stdout:  true
+    ctxKeys: ["RequestId"]
 
+  default:
+    link:   "mysql:contract:pGsB3BJyb4ihihPP@tcp(8.210.86.99:3306)/contract"
+    debug:  true
 
