@@ -18,10 +18,11 @@ var (
 		Func: func(ctx context.Context, parser *gcmd.Parser) (err error) {
 			s := g.Server()
 			s.Group("/", func(group *ghttp.RouterGroup) {
-				group.Middleware(ghttp.MiddlewareHandlerResponse)
+				group.Middleware(ghttp.MiddlewareHandlerResponse, MiddlewareCORS)
 				group.Bind(
 					controller.Hello,
 					controller.Recharges,
+					controller.Accounts,
 				)
 			})
 			s.Run()
@@ -29,3 +30,8 @@ var (
 		},
 	}
 )
+
+func MiddlewareCORS(r *ghttp.Request) {
+	r.Response.CORSDefault()
+	r.Middleware.Next()
+}

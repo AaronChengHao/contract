@@ -1,0 +1,168 @@
+2022-05-11 20:40:41.878 [DEBU] {a8f3ce2c650dee16f3a4ab06d2b0ded9} [392 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 20:40:41.974 [DEBU] {a8f3ce2c650dee16f3a4ab06d2b0ded9} [ 95 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 20:40:42.166 [DEBU] {a8f3ce2c650dee16f3a4ab06d2b0ded9} [191 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`address`,`token_coin`,`created_at`,`game_coin`,`updated_at`,`id`) VALUES('xxx',222222222,'2022-05-11 20:40:41',122222,'2022-05-11 20:40:41',0)  
+2022-05-11 20:40:42.262 [DEBU] {a8f3ce2c650dee16f3a4ab06d2b0ded9} [ 96 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 20:40:45.324 [DEBU] {2824200c660dee16f4a4ab06a6449fb6} [ 91 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-11 20:40:45.513 [DEBU] {2824200c660dee16f4a4ab06a6449fb6} [189 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`updated_at`,`game_coin`,`id`,`address`,`token_coin`,`created_at`) VALUES('2022-05-11 20:40:45',122222,0,'xxx',222222222,'2022-05-11 20:40:45')  
+2022-05-11 20:40:45.610 [DEBU] {2824200c660dee16f4a4ab06a6449fb6} [ 97 ms] [default] [rows:0  ] [txid:2] COMMIT 
+2022-05-11 20:47:03.865 [DEBU] {f8bf7c22be0dee1689e1c63ba418b64e} [300 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 20:47:03.958 [DEBU] {f8bf7c22be0dee1689e1c63ba418b64e} [ 93 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 20:47:04.407 [DEBU] {f8bf7c22be0dee1689e1c63ba418b64e} [449 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`address`,`token_coin`,`updated_at`,`game_coin`,`created_at`,`id`) VALUES('0xwewqeqeqwewq',333,'2022-05-11 20:47:03',22,'2022-05-11 20:47:03',0)  
+2022-05-11 20:47:04.487 [DEBU] {f8bf7c22be0dee1689e1c63ba418b64e} [ 80 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 20:50:11.538 [DEBU] {d8c15195e90dee165313c77a6fa78f5f} [1362 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 20:50:11.633 [DEBU] {d8c15195e90dee165313c77a6fa78f5f} [ 94 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 20:50:11.817 [DEBU] {d8c15195e90dee165313c77a6fa78f5f} [183 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`address`,`created_at`,`updated_at`,`game_coin`,`token_coin`,`id`) VALUES('0xwewqeqeqwewq','2022-05-11 20:50:11','2022-05-11 20:50:11',22,333,0)  
+2022-05-11 20:50:11.904 [DEBU] {d8c15195e90dee165313c77a6fa78f5f} [ 87 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 20:51:12.708 [DEBU] {a880090ef80dee166a23051468f03909} [378 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 20:51:12.790 [DEBU] {a880090ef80dee166a23051468f03909} [ 82 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 20:51:12.936 [DEBU] {a880090ef80dee166a23051468f03909} [144 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`created_at`,`updated_at`,`game_coin`) VALUES(0,'0xwewqeqeqwewq',333,'2022-05-11 20:51:12','2022-05-11 20:51:12',22)  
+2022-05-11 20:51:13.010 [DEBU] {a880090ef80dee166a23051468f03909} [ 74 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 20:52:32.251 [DEBU] {c8ea52960a0eee168dd921281eb47e6a} [325 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 20:52:32.323 [DEBU] {c8ea52960a0eee168dd921281eb47e6a} [ 71 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 20:52:32.479 [DEBU] {c8ea52960a0eee168dd921281eb47e6a} [155 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`updated_at`,`game_coin`,`id`,`address`,`token_coin`,`created_at`) VALUES('2022-05-11 20:52:32',22,0,'0xwewqeqeqwewq',333,'2022-05-11 20:52:32')  
+2022-05-11 20:52:32.571 [DEBU] {c8ea52960a0eee168dd921281eb47e6a} [ 92 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 20:53:36.369 [DEBU] {90266981190eee16708ce87cbdff6f29} [369 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 20:53:36.465 [DEBU] {90266981190eee16708ce87cbdff6f29} [ 95 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 20:53:36.656 [DEBU] {90266981190eee16708ce87cbdff6f29} [191 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`created_at`,`updated_at`,`game_coin`,`id`,`address`,`token_coin`) VALUES('2022-05-11 20:53:36','2022-05-11 20:53:36',22,0,'0xwewqeqeqwewq',333)  
+2022-05-11 20:53:36.754 [DEBU] {90266981190eee16708ce87cbdff6f29} [ 98 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:03:08.219 [DEBU] {98db8da69e0eee16b1bed70b85c5421b} [365 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:03:08.318 [DEBU] {98db8da69e0eee16b1bed70b85c5421b} [ 98 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:03:08.511 [DEBU] {98db8da69e0eee16b1bed70b85c5421b} [193 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`game_coin`,`id`,`address`,`token_coin`,`created_at`,`updated_at`) VALUES(22,0,'0xwewqeqeqwewq',333,'2022-05-11 21:03:08','2022-05-11 21:03:08')  
+2022-05-11 21:03:08.612 [DEBU] {98db8da69e0eee16b1bed70b85c5421b} [100 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:03:25.594 [DEBU] {a8d941c2a20eee16b2bed70b1bbcff81} [ 96 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-11 21:03:25.768 [DEBU] {a8d941c2a20eee16b2bed70b1bbcff81} [173 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`updated_at`,`game_coin`,`created_at`) VALUES(0,'0xwewqeqeqwewq',333,'2022-05-11 21:03:25',22,'2022-05-11 21:03:25')  
+2022-05-11 21:03:25.845 [DEBU] {a8d941c2a20eee16b2bed70b1bbcff81} [ 76 ms] [default] [rows:0  ] [txid:2] COMMIT 
+2022-05-11 21:16:57.349 [DEBU] {40e027a35f0fee16288e6f34da5d2ea8} [624 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:16:57.440 [DEBU] {40e027a35f0fee16288e6f34da5d2ea8} [ 89 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:16:57.588 [DEBU] {40e027a35f0fee16288e6f34da5d2ea8} [147 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`updated_at`,`game_coin`,`created_at`) VALUES(0,'0x00e86bc5c77cd8c0d25b728e092b910c49feb833',2,'2022-05-11 21:16:57',2,'2022-05-11 21:16:57')  
+2022-05-11 21:16:57.657 [DEBU] {40e027a35f0fee16288e6f34da5d2ea8} [ 69 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:23:53.992 [DEBU] {20ce18bac00fee16f7c75c1fadd5938c} [271 ms] [default] [rows:2  ] SHOW TABLES 
+2022-05-11 21:23:54.056 [DEBU] {d89e9cb7c00fee16f6c75c1f266c9e74} [ 62 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:23:54.192 [DEBU] {d89e9cb7c00fee16f6c75c1f266c9e74} [ 79 ms] [default] [rows:6  ] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:26:19.567 [DEBU] {c0f66e97e20fee16b7916066ac35ee1c} [398 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:26:19.668 [DEBU] {c0f66e97e20fee16b7916066ac35ee1c} [ 99 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:26:19.867 [DEBU] {c0f66e97e20fee16b7916066ac35ee1c} [199 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`game_coin`,`id`,`address`,`token_coin`,`created_at`,`updated_at`) VALUES(22,0,'0xwewqeqeqwewq',333,'2022-05-11 21:26:19','2022-05-11 21:26:19')  
+2022-05-11 21:26:19.970 [DEBU] {c0f66e97e20fee16b7916066ac35ee1c} [102 ms] [default] [rows:5  ] [txid:1] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:26:20.072 [DEBU] {c0f66e97e20fee16b7916066ac35ee1c} [101 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:28:08.519 [DEBU] {682a5ff8fb0fee16d0f8ee1b5e360587} [349 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:28:08.601 [DEBU] {682a5ff8fb0fee16d0f8ee1b5e360587} [ 82 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:28:08.777 [DEBU] {682a5ff8fb0fee16d0f8ee1b5e360587} [176 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`token_coin`,`created_at`,`updated_at`,`game_coin`,`id`,`address`) VALUES(333,'2022-05-11 21:28:08','2022-05-11 21:28:08',22,0,'0xwewqeqeqwewq')  
+2022-05-11 21:28:08.876 [DEBU] {682a5ff8fb0fee16d0f8ee1b5e360587} [ 99 ms] [default] [rows:5  ] [txid:1] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:28:09.070 [DEBU] {682a5ff8fb0fee16d0f8ee1b5e360587} [193 ms] [default] [rows:0  ] [txid:1] UPDATE `accounts` SET `coin`=`coin`+22,`updated_at`='2022-05-11 21:28:08' WHERE address='0xwewqeqeqwewq' 
+2022-05-11 21:28:09.167 [DEBU] {682a5ff8fb0fee16d0f8ee1b5e360587} [ 97 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:30:58.252 [DEBU] {682f327b2310ee1638ab9461d4e446f4} [384 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:30:58.342 [DEBU] {682f327b2310ee1638ab9461d4e446f4} [ 89 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:30:58.504 [DEBU] {682f327b2310ee1638ab9461d4e446f4} [162 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`token_coin`,`created_at`,`updated_at`,`game_coin`,`id`,`address`) VALUES(333,'2022-05-11 21:30:58','2022-05-11 21:30:58',22,0,'0xwewqeqeqwewq')  
+2022-05-11 21:30:58.580 [DEBU] {682f327b2310ee1638ab9461d4e446f4} [ 76 ms] [default] [rows:5  ] [txid:1] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:30:58.744 [DEBU] {682f327b2310ee1638ab9461d4e446f4} [163 ms] [default] [rows:0  ] [txid:1] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:30:58.843 [DEBU] {682f327b2310ee1638ab9461d4e446f4} [ 98 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:31:19.107 [DEBU] {c8e96a552810ee16eb9ff57a11df8dc9} [396 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:31:19.200 [DEBU] {c8e96a552810ee16eb9ff57a11df8dc9} [ 92 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:31:19.373 [DEBU] {c8e96a552810ee16eb9ff57a11df8dc9} [172 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`game_coin`,`token_coin`,`id`,`address`,`created_at`,`updated_at`) VALUES(22,333,0,'0xwewqeqeqwewq','2022-05-11 21:31:19','2022-05-11 21:31:19')  
+2022-05-11 21:31:19.454 [DEBU] {c8e96a552810ee16eb9ff57a11df8dc9} [ 80 ms] [default] [rows:5  ] [txid:1] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:31:19.608 [DEBU] {c8e96a552810ee16eb9ff57a11df8dc9} [154 ms] [default] [rows:0  ] [txid:1] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:31:19.693 [DEBU] {c8e96a552810ee16eb9ff57a11df8dc9} [ 84 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:31:54.103 [DEBU] {e87cff7d3010ee16ec9ff57a091f1342} [353 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-11 21:31:54.302 [DEBU] {e87cff7d3010ee16ec9ff57a091f1342} [199 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`address`,`token_coin`,`updated_at`,`game_coin`,`created_at`,`id`) VALUES('0xwewqeqeqwewq',333,'2022-05-11 21:31:54',22,'2022-05-11 21:31:54',0)  
+2022-05-11 21:31:54.482 [DEBU] {e87cff7d3010ee16ec9ff57a091f1342} [179 ms] [default] [rows:1  ] [txid:2] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:31:54.566 [DEBU] {e87cff7d3010ee16ec9ff57a091f1342} [ 83 ms] [default] [rows:0  ] [txid:2] COMMIT 
+2022-05-11 21:34:21.499 [DEBU] {f032b2d15210ee165fd734274f038553} [316 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:34:21.582 [DEBU] {f032b2d15210ee165fd734274f038553} [ 82 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:34:21.775 [DEBU] {f032b2d15210ee165fd734274f038553} [193 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`updated_at`,`game_coin`,`created_at`) VALUES(0,'0xwewqeqeqwewq',333,'2022-05-11 21:34:21',22,'2022-05-11 21:34:21')  
+2022-05-11 21:34:21.887 [DEBU] {f032b2d15210ee165fd734274f038553} [111 ms] [default] [rows:5  ] [txid:1] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:34:22.091 [DEBU] {f032b2d15210ee165fd734274f038553} [204 ms] [default] [rows:1  ] [txid:1] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:34:22.190 [DEBU] {f032b2d15210ee165fd734274f038553} [ 99 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:34:34.166 [DEBU] {00748fd25510ee1660d73427f0339704} [ 84 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-11 21:34:34.347 [DEBU] {00748fd25510ee1660d73427f0339704} [181 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`game_coin`,`id`,`address`,`token_coin`,`created_at`,`updated_at`) VALUES(22,0,'0xwewqeqeqwewq',333,'2022-05-11 21:34:34','2022-05-11 21:34:34')  
+2022-05-11 21:34:34.544 [DEBU] {00748fd25510ee1660d73427f0339704} [196 ms] [default] [rows:0  ] [txid:2] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:34:34.929 [DEBU] {00748fd25510ee1660d73427f0339704} [385 ms] [default] [rows:0  ] [txid:2] COMMIT 
+2022-05-11 21:39:06.188 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [390 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 21:39:06.286 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [ 96 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 21:39:06.493 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [206 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`created_at`,`updated_at`,`game_coin`) VALUES(0,'0xwewqeqeqwewq',333,'2022-05-11 21:39:06','2022-05-11 21:39:06',22)  
+2022-05-11 21:39:06.598 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [104 ms] [default] [rows:5  ] [txid:1] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:39:06.793 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [195 ms] [default] [rows:0  ] [txid:1] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:39:06.974 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [180 ms] [default] [rows:1  ] [txid:1] INSERT INTO `accounts`(`id`,`address`,`coin`,`created_at`,`updated_at`) VALUES(0,'0xwewqeqeqwewq',22,'2022-05-11 21:39:06','2022-05-11 21:39:06')  
+2022-05-11 21:39:07.062 [DEBU] {f8cc01169510ee16f6d0772c79fb16a8} [ 88 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 21:40:37.881 [DEBU] {5070f458aa10ee16f7d0772c3ce98821} [767 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-11 21:40:38.062 [DEBU] {5070f458aa10ee16f7d0772c3ce98821} [180 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`game_coin`,`id`,`address`,`token_coin`,`created_at`,`updated_at`) VALUES(22,0,'0xwewqeqeqwewq',333,'2022-05-11 21:40:37','2022-05-11 21:40:37')  
+2022-05-11 21:40:38.262 [DEBU] {5070f458aa10ee16f7d0772c3ce98821} [200 ms] [default] [rows:1  ] [txid:2] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:40:38.474 [DEBU] {5070f458aa10ee16f7d0772c3ce98821} [212 ms] [default] [rows:1  ] [txid:2] UPDATE `accounts` SET `updated_at`='2022-05-11 21:40:38',`coin`=`coin`+22 WHERE address='0xwewqeqeqwewq' 
+2022-05-11 21:40:38.579 [DEBU] {5070f458aa10ee16f7d0772c3ce98821} [105 ms] [default] [rows:0  ] [txid:2] COMMIT 
+2022-05-11 21:40:39.531 [DEBU] {70eaf2e2aa10ee16f8d0772c0e6d76b7} [101 ms] [default] [rows:0  ] [txid:3] BEGIN 
+2022-05-11 21:40:39.721 [DEBU] {70eaf2e2aa10ee16f8d0772c0e6d76b7} [190 ms] [default] [rows:1  ] [txid:3] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`updated_at`,`game_coin`,`created_at`) VALUES(0,'0xwewqeqeqwewq',333,'2022-05-11 21:40:39',22,'2022-05-11 21:40:39')  
+2022-05-11 21:40:39.900 [DEBU] {70eaf2e2aa10ee16f8d0772c0e6d76b7} [179 ms] [default] [rows:1  ] [txid:3] SELECT * FROM `accounts` WHERE address='0xwewqeqeqwewq' LIMIT 1 
+2022-05-11 21:40:40.081 [DEBU] {70eaf2e2aa10ee16f8d0772c0e6d76b7} [180 ms] [default] [rows:1  ] [txid:3] UPDATE `accounts` SET `coin`=`coin`+22,`updated_at`='2022-05-11 21:40:39' WHERE address='0xwewqeqeqwewq' 
+2022-05-11 21:40:40.176 [DEBU] {70eaf2e2aa10ee16f8d0772c0e6d76b7} [ 94 ms] [default] [rows:0  ] [txid:3] COMMIT 
+2022-05-11 21:41:15.251 [DEBU] {606d020db310ee16f9d0772cc6a29482} [756 ms] [default] [rows:0  ] [txid:4] BEGIN 
+2022-05-11 21:41:15.411 [DEBU] {606d020db310ee16f9d0772cc6a29482} [159 ms] [default] [rows:1  ] [txid:4] INSERT INTO `recharges`(`game_coin`,`id`,`address`,`token_coin`,`created_at`,`updated_at`) VALUES(3,0,'0x00e86bc5c77cd8c0d25b728e092b910c49feb833',3,'2022-05-11 21:41:15','2022-05-11 21:41:15')  
+2022-05-11 21:41:15.571 [DEBU] {606d020db310ee16f9d0772cc6a29482} [160 ms] [default] [rows:0  ] [txid:4] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 21:41:16.069 [DEBU] {606d020db310ee16f9d0772cc6a29482} [497 ms] [default] [rows:1  ] [txid:4] INSERT INTO `accounts`(`created_at`,`updated_at`,`id`,`address`,`coin`) VALUES('2022-05-11 21:41:15','2022-05-11 21:41:15',0,'0x00e86bc5c77cd8c0d25b728e092b910c49feb833',3)  
+2022-05-11 21:41:16.180 [DEBU] {606d020db310ee16f9d0772cc6a29482} [111 ms] [default] [rows:0  ] [txid:4] COMMIT 
+2022-05-11 21:58:02.414 [DEBU] {28a03ba29d11ee164da2236d7b792e4e} [393 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 21:58:02.600 [DEBU] {28a03ba29d11ee164da2236d7b792e4e} [183 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='22222' LIMIT 1 
+2022-05-11 21:58:16.140 [DEBU] {18b45ae0a011ee164ea2236d84341d6a} [192 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:03:51.520 [DEBU] {f8142aebee11ee1694b9b57f08a4a27e} [383 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 22:03:51.725 [DEBU] {f8142aebee11ee1694b9b57f08a4a27e} [205 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:03:56.294 [DEBU] {601b1414f011ee1695b9b57f40f9a6d9} [176 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb8332' LIMIT 1 
+2022-05-11 22:04:08.025 [DEBU] {78f181cef211ee1696b9b57fc0ba0c8c} [189 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb8332' LIMIT 1 
+2022-05-11 22:04:09.163 [DEBU] {2064260af311ee16f7037f6aa7026c7d} [326 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 22:04:09.357 [DEBU] {2064260af311ee16f7037f6aa7026c7d} [194 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb8332' LIMIT 1 
+2022-05-11 22:04:10.231 [DEBU] {a0c15052f311ee16f8037f6a90591ed9} [184 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb8332' LIMIT 1 
+2022-05-11 22:06:34.184 [DEBU] {1870f8c61412ee16f9037f6a9a81d722} [446 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:06:59.430 [DEBU] {08f24fb61a12ee16fa037f6a4333d60f} [202 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:07:30.763 [DEBU] {684591f12112ee16fb037f6ae4c5900c} [476 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:08:30.455 [DEBU] {0830c7d72f12ee16fc037f6a72dcae5a} [471 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:11:36.917 [DEBU] {78b12d405b12ee16fd037f6af2d9216e} [498 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:12:38.199 [DEBU] {e8d224866912ee16fe037f6a5f3b332f} [476 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:13:02.830 [DEBU] {b0007e3b6f12ee16ff037f6a9fc5e5f1} [590 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:01.244 [DEBU] {e0a4f9d48a12ee1600047f6a2803dfa8} [465 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:14.153 [DEBU] {786f87e68d12ee1601047f6a5a298f73} [194 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:15.971 [DEBU] {c8eaf9528e12ee1602047f6af887ecf8} [193 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:17.175 [DEBU] {3001e1888e12ee1603047f6a1a6678e3} [493 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:20.789 [DEBU] {48b9fe718f12ee1604047f6a5fb1698b} [196 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:21.883 [DEBU] {a8c591b38f12ee1605047f6a3d5ded78} [189 ms] [default] [rows:0  ] SELECT * FROM `accounts` WHERE address='dsadas' LIMIT 1 
+2022-05-11 22:15:44.090 [DEBU] {287a82c59412ee1606047f6a51df3843} [621 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:15:45.843 [DEBU] {883e95479512ee1607047f6af7c3c415} [191 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:16:24.761 [DEBU] {e0eb684c9e12ee1608047f6a88f32976} [374 ms] [default] [rows:0  ] [txid:1] BEGIN 
+2022-05-11 22:16:24.858 [DEBU] {e0eb684c9e12ee1608047f6a88f32976} [ 96 ms] [default] [rows:6  ] [txid:1] SHOW FULL COLUMNS FROM `recharges` 
+2022-05-11 22:16:25.048 [DEBU] {e0eb684c9e12ee1608047f6a88f32976} [188 ms] [default] [rows:1  ] [txid:1] INSERT INTO `recharges`(`updated_at`,`game_coin`,`id`,`address`,`token_coin`,`created_at`) VALUES('2022-05-11 22:16:24',33,0,'0x00e86bc5c77cd8c0d25b728e092b910c49feb833',33,'2022-05-11 22:16:24')  
+2022-05-11 22:16:25.237 [DEBU] {e0eb684c9e12ee1608047f6a88f32976} [189 ms] [default] [rows:1  ] [txid:1] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:16:25.427 [DEBU] {e0eb684c9e12ee1608047f6a88f32976} [190 ms] [default] [rows:1  ] [txid:1] UPDATE `accounts` SET `updated_at`='2022-05-11 22:16:25',`coin`=`coin`+33 WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' 
+2022-05-11 22:16:25.522 [DEBU] {e0eb684c9e12ee1608047f6a88f32976} [ 95 ms] [default] [rows:0  ] [txid:1] COMMIT 
+2022-05-11 22:16:27.017 [DEBU] {d8a5e8dd9e12ee1609047f6a617cffc7} [189 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:16:45.792 [DEBU] {20e9ea3ca312ee160a047f6ac9623c33} [189 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:09.010 [DEBU] {a0d4ef99a812ee160b047f6a608e0362} [372 ms] [default] [rows:0  ] [txid:2] BEGIN 
+2022-05-11 22:17:09.236 [DEBU] {a0d4ef99a812ee160b047f6a608e0362} [226 ms] [default] [rows:1  ] [txid:2] INSERT INTO `recharges`(`address`,`token_coin`,`created_at`,`updated_at`,`game_coin`,`id`) VALUES('0x00e86bc5c77cd8c0d25b728e092b910c49feb833',55,'2022-05-11 22:17:09','2022-05-11 22:17:09',55,0)  
+2022-05-11 22:17:09.424 [DEBU] {a0d4ef99a812ee160b047f6a608e0362} [187 ms] [default] [rows:1  ] [txid:2] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:09.612 [DEBU] {a0d4ef99a812ee160b047f6a608e0362} [187 ms] [default] [rows:1  ] [txid:2] UPDATE `accounts` SET `coin`=`coin`+55,`updated_at`='2022-05-11 22:17:09' WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' 
+2022-05-11 22:17:09.708 [DEBU] {a0d4ef99a812ee160b047f6a608e0362} [ 96 ms] [default] [rows:0  ] [txid:2] COMMIT 
+2022-05-11 22:17:11.885 [DEBU] {10536850a912ee160c047f6a5dbc703c} [186 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:15.108 [DEBU] {c81c5810aa12ee160d047f6af4969740} [189 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:23.924 [DEBU] {082c181dac12ee160e047f6a9afa5945} [201 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:24.821 [DEBU] {f029cf52ac12ee160f047f6a39cce86f} [196 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:28.602 [DEBU] {d003643aad12ee1610047f6a17fd7a17} [ 92 ms] [default] [rows:0  ] [txid:3] BEGIN 
+2022-05-11 22:17:28.788 [DEBU] {d003643aad12ee1610047f6a17fd7a17} [184 ms] [default] [rows:1  ] [txid:3] INSERT INTO `recharges`(`created_at`,`updated_at`,`game_coin`,`id`,`address`,`token_coin`) VALUES('2022-05-11 22:17:28','2022-05-11 22:17:28',33,0,'0x00e86bc5c77cd8c0d25b728e092b910c49feb833',33)  
+2022-05-11 22:17:28.974 [DEBU] {d003643aad12ee1610047f6a17fd7a17} [186 ms] [default] [rows:1  ] [txid:3] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:29.165 [DEBU] {d003643aad12ee1610047f6a17fd7a17} [189 ms] [default] [rows:1  ] [txid:3] UPDATE `accounts` SET `coin`=`coin`+33,`updated_at`='2022-05-11 22:17:28' WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' 
+2022-05-11 22:17:29.262 [DEBU] {d003643aad12ee1610047f6a17fd7a17} [ 97 ms] [default] [rows:0  ] [txid:3] COMMIT 
+2022-05-11 22:17:31.896 [DEBU] {282f7cf8ad12ee1611047f6a6f4fb5b3} [197 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:17:46.748 [DEBU] {d850ee5bb112ee1612047f6a77f2363c} [496 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:18:31.779 [DEBU] {60c3dedebb12ee1613047f6a1255c2d6} [380 ms] [default] [rows:0  ] [txid:4] BEGIN 
+2022-05-11 22:18:31.973 [DEBU] {60c3dedebb12ee1613047f6a1255c2d6} [194 ms] [default] [rows:1  ] [txid:4] INSERT INTO `recharges`(`address`,`token_coin`,`created_at`,`updated_at`,`game_coin`,`id`) VALUES('0x00e86bc5c77cd8c0d25b728e092b910c49feb833',3,'2022-05-11 22:18:31','2022-05-11 22:18:31',3,0)  
+2022-05-11 22:18:32.167 [DEBU] {60c3dedebb12ee1613047f6a1255c2d6} [193 ms] [default] [rows:1  ] [txid:4] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:18:32.357 [DEBU] {60c3dedebb12ee1613047f6a1255c2d6} [190 ms] [default] [rows:1  ] [txid:4] UPDATE `accounts` SET `coin`=`coin`+3,`updated_at`='2022-05-11 22:18:32' WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' 
+2022-05-11 22:18:32.455 [DEBU] {60c3dedebb12ee1613047f6a1255c2d6} [ 98 ms] [default] [rows:0  ] [txid:4] COMMIT 
+2022-05-11 22:18:34.261 [DEBU] {d8ca467ebc12ee1614047f6a2bb3199d} [188 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:18:38.026 [DEBU] {a0797b5ebd12ee1615047f6ab9b65548} [191 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:18:50.578 [DEBU] {18bb644ac012ee1616047f6a839ae302} [196 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:18:51.731 [DEBU] {b8bdef8ac012ee1617047f6a50d73362} [266 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:19:02.152 [DEBU] {78f47cf0c212ee1618047f6a0458d119} [393 ms] [default] [rows:0  ] [txid:5] BEGIN 
+2022-05-11 22:19:02.346 [DEBU] {78f47cf0c212ee1618047f6a0458d119} [193 ms] [default] [rows:1  ] [txid:5] INSERT INTO `recharges`(`id`,`address`,`token_coin`,`created_at`,`updated_at`,`game_coin`) VALUES(0,'0x00e86bc5c77cd8c0d25b728e092b910c49feb833',4,'2022-05-11 22:19:02','2022-05-11 22:19:02',4)  
+2022-05-11 22:19:02.539 [DEBU] {78f47cf0c212ee1618047f6a0458d119} [193 ms] [default] [rows:1  ] [txid:5] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:19:02.733 [DEBU] {78f47cf0c212ee1618047f6a0458d119} [193 ms] [default] [rows:1  ] [txid:5] UPDATE `accounts` SET `coin`=`coin`+4,`updated_at`='2022-05-11 22:19:02' WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' 
+2022-05-11 22:19:02.832 [DEBU] {78f47cf0c212ee1618047f6a0458d119} [ 99 ms] [default] [rows:0  ] [txid:5] COMMIT 
+2022-05-11 22:19:06.412 [DEBU] {708f34fac312ee1619047f6a34699e64} [195 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:19:30.591 [DEBU] {004fdd79c912ee161a047f6a3bf35d39} [757 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:22:01.467 [DEBU] {3067d7afec12ee16a0b16663c849f8f0} [401 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `accounts` 
+2022-05-11 22:22:01.666 [DEBU] {3067d7afec12ee16a0b16663c849f8f0} [196 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
+2022-05-11 22:22:02.762 [DEBU] {f00d1209ed12ee16a1b166633baa3a4e} [202 ms] [default] [rows:1  ] SELECT * FROM `accounts` WHERE address='0x00e86bc5c77cd8c0d25b728e092b910c49feb833' LIMIT 1 
